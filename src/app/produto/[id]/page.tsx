@@ -40,7 +40,7 @@ export default function ProductDetails({ params }: any) {
                   </div>
                 </div>
               </div>
-              <div className="m-auto w-[400px] py-4 text-left">
+              <div className="m-auto  py-4 text-left sm:w-[80vw] md:w-[400px]">
                 <div className="flex items-center justify-between">
                   <h1 className="text-3xl font-bold">{produto.nome}</h1>
                   <div className="flex items-end justify-end gap-2">
