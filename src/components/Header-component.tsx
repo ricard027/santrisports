@@ -13,7 +13,9 @@ export default function HeaderComponent() {
     <>
       <header className="fixed top-0 z-10 flex h-20 w-full items-center justify-center bg-primary text-slate-100">
         <nav className="flex w-[90vw] items-center justify-between sm:w-[80vw]">
-          <div className="relative flex h-[50px] cursor-pointer flex-col justify-between">
+          <Link
+            href="/"
+            className="relative flex h-[50px] cursor-pointer flex-col justify-between">
             <Image
               src="/assets/logo.svg"
               alt="imagem da logo"
@@ -25,7 +27,7 @@ export default function HeaderComponent() {
               <h1 className="text-2xl font-bold">Santri</h1>
             </div>
             <p className="text-gray-400">Sports</p>
-          </div>
+          </Link>
           <ul className="my-list flex items-center gap-4 text-gray-300">
             <Link href="/sign">Criar conta </Link>
             <Link href="/login" className="">

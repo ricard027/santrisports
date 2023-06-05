@@ -1,7 +1,11 @@
+// Components
 import CartIcon from '@heroicons/react/24/outline/ShoppingCartIcon'
 import ButtonComponent from './button/Button-component'
-import Product from '../../types/protuct'
+
+// Utilities
 import { FunctionComponent } from 'react'
+import Link from 'next/link'
+import Product from '../../types/protuct'
 
 const Product: FunctionComponent<Product> = (
   { id, img, price, name, sold, stock },
@@ -24,7 +28,7 @@ const Product: FunctionComponent<Product> = (
       </div>
       <div className="product-inative absolute top-0 flex h-full   w-[155px] items-center justify-center rounded-md bg-[rgb(0,0,0,.3)]">
         <ButtonComponent icon={<CartIcon width={20} />}>
-          <p className="font-semibold">adicionar</p>
+          <Link href={`/produto/${id}`}>Adicionar</Link>
         </ButtonComponent>
       </div>
     </div>
