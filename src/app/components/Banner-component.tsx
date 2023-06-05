@@ -1,4 +1,7 @@
+// Components
 import CarouselComponent from './Carousel-component'
+
+// Utilities
 import { SwiperSlide } from 'swiper/react'
 import { Produtos } from '../../../script/Products'
 

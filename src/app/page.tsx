@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <HeaderComponent />
-      <main className="sm:w-[100vw]">
+      <main className="m-auto w-[90vw] sm:w-[80vw]">
         <BannerComponent />
         <PromoComponent />
         <TitleComponent>Mais vendidos</TitleComponent>
