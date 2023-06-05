@@ -9,7 +9,7 @@ const PromoComponent = () => {
       <section className="flex h-[400px] items-center justify-between gap-4">
         <div className="active-button-on-hover  relative flex h-full flex-1 flex-col items-center justify-center gap-2 bg-customgray">
           <img
-            src="https://i.pinimg.com/564x/91/a3/0c/91a30c6477ec807cec7794dc0dde7937.jpg"
+            src="https://i.pinimg.com/564x/b7/c5/c3/b7c5c3d791c3ae83cda6e6ad09cbea81.jpg"
             alt="mulheres correndo"
             className="h-full w-full bg-cover"
           />
@@ -25,7 +25,7 @@ const PromoComponent = () => {
         {/* separador */}
         <div className="active-button-on-hover relative flex h-full flex-1  flex-col items-center justify-center gap-2 bg-customgray">
           <img
-            src="https://i.pinimg.com/564x/d6/ce/19/d6ce19f0736ef344295b599b41e5a1d2.jpg"
+            src="https://i.pinimg.com/564x/f0/8c/f9/f08cf920c9bdbe8f0fa6593b89e977f8.jpg"
             alt="mulheres correndo"
             className="h-full w-full bg-cover"
           />

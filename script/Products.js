@@ -10,7 +10,7 @@ export const Produtos = [
   {
     nome: 'Camiseta',
     preço: 15.99,
-    imagem: 'https://source.unsplash.com/800x800/?shirt',
+    imagem: 'https://source.unsplash.com/800x800/?tshirt',
     id: 2,
     estoque: 15,
     vendidos: 8

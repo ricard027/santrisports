@@ -1,9 +1,9 @@
 // Components
-import HeaderComponent from '@/components/Header-component'
+import HeaderComponent from '@/components/header/Header-component'
 import TitleComponent from '@/components/title/TitleComponent'
 import FooterComponent from '@/components/footer/Footer-component'
 // Utilities
-import Product from '@/components/Product-component'
+import Product from '@/components/product/Product-component'
 import { Produtos } from '../../../script/Products'
 
 export default function ProductsPage() {

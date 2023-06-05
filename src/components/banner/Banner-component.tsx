@@ -1,9 +1,9 @@
 // Components
-import CarouselComponent from './Carousel-component'
+import CarouselComponent from '../carousel/Carousel-component'
 
 // Utilities
 import { SwiperSlide } from 'swiper/react'
-import { Produtos } from '../../script/Products'
+import { Produtos } from '../../../script/Products'
 
 export default function BannerComponent() {
   return (

@@ -1,11 +1,11 @@
 // Components
 import CartIcon from '@heroicons/react/24/outline/ShoppingCartIcon'
-import ButtonComponent from './button/Button-component'
+import ButtonComponent from '../button/Button-component'
 
 // Utilities
 import { FunctionComponent } from 'react'
 import Link from 'next/link'
-import Product from '../../types/protuct'
+import Product from '../../../types/protuct'
 
 const Product: FunctionComponent<Product> = (
   { id, img, price, name, sold, stock },

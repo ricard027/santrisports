@@ -1,6 +1,6 @@
 'use client'
 // Components
-import CartComponent from './cart/Cart-component'
+import CartComponent from '../cart/Cart-component'
 // Utilities
 import { ShoppingBagIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'

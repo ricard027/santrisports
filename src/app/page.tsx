@@ -1,9 +1,9 @@
 'use client'
 // Components
-import HeaderComponent from '../components/Header-component'
-import BannerComponent from '../components/Banner-component'
-import CarouselComponent from '../components/Carousel-component'
-import Product from '../components/Product-component'
+import HeaderComponent from '../components/header/Header-component'
+import BannerComponent from '../components/banner/Banner-component'
+import CarouselComponent from '../components/carousel/Carousel-component'
+import Product from '../components/product/Product-component'
 import PromoComponent from '../components/promotion/Promotion-component'
 import TitleComponent from '../components/title/TitleComponent'
 import ReleasesComponent from '../components/releases/Releases-component'
