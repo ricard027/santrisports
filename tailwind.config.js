@@ -18,9 +18,17 @@ module.exports = {
         customgreen: '#2B8128',
         custombllue: '#3D7BAA'
       },
-      text: {
-        grey: '#717171',
-        light: '#F5F5F5'
+      colors: {
+        primary: '#121212',
+        light: '#F5F5F5',
+        lightgray: '#D9D9D9',
+        customgray: '#717171',
+        customred: '#D9000D',
+        customgreen: '#2B8128',
+        custombllue: '#3D7BAA'
+      },
+      fontFamily: {
+        Primary: 'var(--font-roboto)'
       }
     }
   },
