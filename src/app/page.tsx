@@ -11,6 +11,7 @@ import TitleComponent from './components/title/TitleComponent'
 import { SwiperSlide } from 'swiper/react'
 import ReleasesComponent from './components/releases/Releases-component'
 import { Produtos } from '../../script/Products'
+import FooterComponent from './components/footer/Footer-component'
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
         <TitleComponent>Lançamentos</TitleComponent>
         <ReleasesComponent />
       </main>
+      <FooterComponent />
     </>
   )
 }
