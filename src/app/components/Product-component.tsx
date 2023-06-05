@@ -1,20 +1,31 @@
 import CartIcon from '@heroicons/react/24/outline/ShoppingCartIcon'
+import ButtonComponent from './button/Button-component'
+import Product from '../../../types/protuct'
+import { FunctionComponent } from 'react'
 
-const Product = () => {
+const Product: FunctionComponent<Product> = (
+  { id, img, price, name, sold, stock },
+  i
+) => {
   return (
-    <div className="custom-border-solid active-button-on-hover flex h-[300px] w-[155px] flex-col gap-2 rounded-md">
-      <div className="h-[190px]  bg-customgray"></div>
-      <div className=" ml-2">
-        <h3 className="font-semibold text-slate-950">Produto - Modelo</h3>
-        <p className="text-sm text-[#717171]">4447 | 154 vendidos</p>
-        <div className="my-[9px] h-[4px] w-[15px] rounded-xl bg-[#d9d9d9]" />
-        <div className="font-semibold text-[#717171]">R$999</div>
+    <div
+      className=" active-button-on-hover flex h-[300px] w-[155px] flex-col gap-2 rounded-md bg-white shadow-lg"
+      key={i}>
+      <div className="l  h-[190px] rounded-t-md bg-customgray">
+        <img src={img} alt={name} className="h-full rounded-t-md bg-cover" />
       </div>
-      <div className="product-inative absolute top-0 flex h-full   w-[154px] items-center justify-center rounded-md bg-[rgb(0,0,0,.3)]">
-        <button className="flex w-[80%] items-center justify-evenly rounded-md bg-[#121212]  p-2 text-slate-50">
-          <p className="font-medium">adicionar</p>
-          <CartIcon width={20} />
-        </button>
+      <div className=" ml-2">
+        <h3 className="font-semibold text-slate-950">{name}</h3>
+        <p className="text-sm text-[#717171]">
+          {stock} | {sold} vendidos
+        </p>
+        <p className="text-sm text-[#717171] line-through">R$ 999</p>
+        <div className="text-lg font-semibold ">R$ {price}</div>
+      </div>
+      <div className="product-inative absolute top-0 flex h-full   w-[155px] items-center justify-center rounded-md bg-[rgb(0,0,0,.3)]">
+        <ButtonComponent icon={<CartIcon width={20} />}>
+          <p className="font-semibold">adicionar</p>
+        </ButtonComponent>
       </div>
     </div>
   )
