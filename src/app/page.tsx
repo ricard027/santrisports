@@ -1,17 +1,17 @@
 'use client'
 // Components
-import HeaderComponent from './components/Header-component'
-import BannerComponent from './components/Banner-component'
-import CarouselComponent from './components/Carousel-component'
-import Product from './components/Product-component'
-import PromoComponent from './components/promotion/Promotion-component'
-import TitleComponent from './components/title/TitleComponent'
+import HeaderComponent from '../components/Header-component'
+import BannerComponent from '../components/Banner-component'
+import CarouselComponent from '../components/Carousel-component'
+import Product from '../components/Product-component'
+import PromoComponent from '../components/promotion/Promotion-component'
+import TitleComponent from '../components/title/TitleComponent'
+import ReleasesComponent from '../components/releases/Releases-component'
+import FooterComponent from '../components/footer/Footer-component'
 
 // Utilities
 import { SwiperSlide } from 'swiper/react'
-import ReleasesComponent from './components/releases/Releases-component'
 import { Produtos } from '../../script/Products'
-import FooterComponent from './components/footer/Footer-component'
 
 export default function Home() {
   return (

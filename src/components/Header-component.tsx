@@ -25,7 +25,7 @@ export default function HeaderComponent() {
             <Link href="/login" className="">
               Entrar
             </Link>
-            <Link href="/login" className="">
+            <Link href="/products" className="">
               Produtos
             </Link>
             <li className=" relative flex cursor-pointer items-center">

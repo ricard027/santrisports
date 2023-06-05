@@ -1,6 +1,6 @@
 import CartIcon from '@heroicons/react/24/outline/ShoppingCartIcon'
 import ButtonComponent from './button/Button-component'
-import Product from '../../../types/protuct'
+import Product from '../../types/protuct'
 import { FunctionComponent } from 'react'
 
 const Product: FunctionComponent<Product> = (
@@ -9,9 +9,9 @@ const Product: FunctionComponent<Product> = (
 ) => {
   return (
     <div
-      className=" active-button-on-hover flex h-[300px] w-[155px] flex-col gap-2 rounded-md bg-white shadow-lg"
-      key={i}>
-      <div className="l  h-[190px] rounded-t-md bg-customgray">
+      className="active-button-on-hover relative flex h-[300px] w-[155px] flex-col gap-2 rounded-md bg-white shadow-lg"
+      key={id}>
+      <div className="h-[190px] rounded-t-md bg-customgray">
         <img src={img} alt={name} className="h-full rounded-t-md bg-cover" />
       </div>
       <div className=" ml-2">

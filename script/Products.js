@@ -91,6 +91,73 @@ export const Produtos = [
     nome: 'Corda de Pular',
     preço: 9.99,
     imagem: 'https://source.unsplash.com/800x800/?jumpingrope',
-    id: 12
+    id: 12,
+    estoque: 0,
+    vendidos: 0
+  },
+  // Produtos adicionais para um total de 20
+  {
+    nome: 'Capacete de Ciclismo',
+    preço: 24.99,
+    imagem: 'https://source.unsplash.com/800x800/?cyclinghelmet',
+    id: 13,
+    estoque: 15,
+    vendidos: 5
+  },
+  {
+    nome: 'Bermuda de Natação',
+    preço: 18.99,
+    imagem: 'https://source.unsplash.com/800x800/?swimshorts',
+    id: 14,
+    estoque: 12,
+    vendidos: 3
+  },
+  {
+    nome: 'Chuteira',
+    preço: 22.99,
+    imagem: 'https://source.unsplash.com/800x800/?soccerboots',
+    id: 15,
+    estoque: 9,
+    vendidos: 2
+  },
+  {
+    nome: 'Raquete de Badminton',
+    preço: 20.99,
+    imagem: 'https://source.unsplash.com/800x800/?badmintonracket',
+    id: 16,
+    estoque: 10,
+    vendidos: 1
+  },
+  {
+    nome: 'Bola de Basquete',
+    preço: 14.99,
+    imagem: 'https://source.unsplash.com/800x800/?basketball',
+    id: 17,
+    estoque: 16,
+    vendidos: 6
+  },
+  {
+    nome: 'Chapéu de Praia',
+    preço: 8.99,
+    imagem: 'https://source.unsplash.com/800x800/?beachhat',
+    id: 18,
+    estoque: 20,
+    vendidos: 2
+  },
+  {
+    nome: 'Saco de Boxe',
+    preço: 27.99,
+    imagem: 'https://source.unsplash.com/800x800/?punchingbag',
+    id: 19,
+    estoque: 6,
+    vendidos: 3
+  },
+  {
+    nome: 'Luvas de Goleiro',
+    preço: 19.99,
+    imagem: 'https://source.unsplash.com/800x800/?goalkeepergloves',
+    id: 20,
+    estoque: 8,
+    vendidos: 4
   }
 ]

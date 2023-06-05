@@ -1,8 +1,10 @@
+// Components
 import HeaderComponent from '@/components/Header-component'
 import TitleComponent from '@/components/title/TitleComponent'
+import FooterComponent from '@/components/footer/Footer-component'
+// Utilities
 import Product from '@/components/Product-component'
 import { Produtos } from '../../../script/Products'
-import FooterComponent from '@/components/footer/Footer-component'
 
 export default function ProductsPage() {
   return (

@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 
 interface Product {
-  id: Number
+  id: any
   img: string
   name: string
   price: ReactNode
