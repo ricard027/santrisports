@@ -1,8 +1,14 @@
+'use client'
+// Components
+import CartComponent from './cart/Cart-component'
+// Utilities
 import { ShoppingBagIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 
 export default function HeaderComponent() {
+  const [cartActive, setCartActive] = useState<boolean>(false)
   return (
     <>
       <header className="fixed top-0 z-10 flex h-20 w-full items-center justify-center bg-primary text-slate-100">
@@ -28,7 +34,9 @@ export default function HeaderComponent() {
             <Link href="/products" className="">
               Produtos
             </Link>
-            <li className=" relative flex cursor-pointer items-center">
+            <li
+              className="  relative flex cursor-pointer items-center"
+              onClick={() => setCartActive((prevstate: boolean) => !prevstate)}>
               <ShoppingBagIcon
                 className="
                     h-5
@@ -40,6 +48,7 @@ export default function HeaderComponent() {
         </nav>
       </header>
       <div className="h-[56px]"></div>
+      {cartActive ? <CartComponent /> : null}
     </>
   )
 }
