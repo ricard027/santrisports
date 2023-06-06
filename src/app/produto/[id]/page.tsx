@@ -20,7 +20,7 @@ export default function ProductDetails({ params }: any) {
         {Produtos.filter((produtos) => produtos.id == idParams).map(
           (produto) => (
             <div className="m-auto flex w-[80vw] flex-col items-center">
-              <div className="w-[80vw ]">
+              <div className="w-[80vw ] m-auto">
                 <div className="relative m-auto h-[300px] w-[400px] rounded-md bg-customgray">
                   <HeartIcon className="absolute right-2 top-2 w-5 cursor-pointer text-white" />
                   <MyimgComponent alt={produto.nome} src={produto.imagem} />
@@ -40,8 +40,8 @@ export default function ProductDetails({ params }: any) {
                   </div>
                 </div>
               </div>
-              <div className="m-auto  w-[80vw] py-4 text-left sm:w-[80vw] md:w-[400px]">
-                <div className="flex items-center justify-between">
+              <div className="m-auto  w-[400px]  py-4 text-left">
+                <div className="flex w-full items-center justify-between">
                   <h1 className="text-3xl font-bold">{produto.nome}</h1>
                   <div className="flex items-end justify-end gap-2">
                     <p className="text-xs text-customgray">
