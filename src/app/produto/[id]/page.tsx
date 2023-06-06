@@ -32,7 +32,7 @@ export default function ProductDetails({ params }: any) {
             <div className="m-auto flex w-[80vw] flex-col items-center">
               <div className="m-auto w-[80vw]">
                 {/* Image */}
-                <div className="sm:w-[80vw]0 relative m-auto h-[300px] rounded-md bg-customgray lg:w-[400px]">
+                <div className="relative m-auto h-[300px] rounded-md bg-customgray sm:w-[80vw] lg:w-[400px]">
                   {/* Heart Icon */}
                   <div
                     className="absolute right-2 top-2 w-5 cursor-pointer text-white"
@@ -89,7 +89,7 @@ export default function ProductDetails({ params }: any) {
                 </p>
                 <h3 className="text-lg font-bold">R${produto.preço}</h3>
               </div>
-              <div className="flex w-[400px] items-end justify-end">
+              <div className="flex items-end justify-end sm:w-[80vw] lg:w-[400px]">
                 <ButtonComponent icon={<CartIcon width={20} />}>
                   Adicionar ao carrinho
                 </ButtonComponent>
