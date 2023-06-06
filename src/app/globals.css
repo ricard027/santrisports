@@ -38,3 +38,19 @@
 li {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.active-icon {
+  position: relative;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.icon-active {
+  display: none;
+  left: 40%;
+  color: white;
+}
+.active-icon:hover > .icon-active {
+  display: block;
+  position: absolute;
+}
