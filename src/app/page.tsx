@@ -3,7 +3,6 @@
 import HeaderComponent from '../components/header/Header-component'
 import BannerComponent from '../components/banner/Banner-component'
 import CarouselComponent from '../components/carousel/Carousel-component'
-import Product from '../components/product/Product-component'
 import PromoComponent from '../components/promotion/Promotion-component'
 import TitleComponent from '../components/title/TitleComponent'
 import ReleasesComponent from '../components/releases/Releases-component'
@@ -12,6 +11,7 @@ import FooterComponent from '../components/footer/Footer-component'
 // Utilities
 import { SwiperSlide } from 'swiper/react'
 import { Produtos } from '../../script/Products'
+import ProductComponent from '../components/product/Product-component'
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
           lg={5}>
           {Produtos.map((produtos) => (
             <SwiperSlide key={produtos.id}>
-              <Product
+              <ProductComponent
                 id={produtos.id}
                 img={produtos.imagem}
                 name={produtos.nome}

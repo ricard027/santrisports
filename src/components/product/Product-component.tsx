@@ -7,7 +7,7 @@ import { FunctionComponent } from 'react'
 import Link from 'next/link'
 import Product from '../../../types/protuct'
 
-const Product: FunctionComponent<Product> = (
+const ProductComponent: FunctionComponent<Product> = (
   { id, img, price, name, sold, stock },
   i
 ) => {
@@ -34,4 +34,4 @@ const Product: FunctionComponent<Product> = (
     </div>
   )
 }
-export default Product
+export default ProductComponent
