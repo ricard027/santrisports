@@ -89,7 +89,7 @@ export default function ProductDetails({ params }: any) {
                 </p>
                 <h3 className="text-lg font-bold">R${produto.preço}</h3>
               </div>
-              <div className="flex items-end justify-end sm:w-[90vw] lg:w-[400px]">
+              <div className="flex w-[80vw] items-end justify-end sm:w-[90vw] lg:w-[400px]">
                 <ButtonComponent icon={<CartIcon width={20} />}>
                   Adicionar ao carrinho
                 </ButtonComponent>
