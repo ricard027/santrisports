@@ -14,7 +14,7 @@ export default function HeaderComponent() {
   return (
     <>
       <header className="fixed top-0 z-10 flex h-20 w-full items-center justify-center bg-primary text-slate-100">
-        <nav className="hidden w-[90vw] items-center justify-between sm:flex sm:w-[80vw] sm:bg-red-700 md:flex">
+        <nav className="hidden w-[90vw] items-center justify-between sm:flex sm:w-[80vw]  md:flex">
           <Link
             href="/"
             className="relative flex h-[50px] cursor-pointer flex-col justify-between">
