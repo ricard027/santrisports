@@ -1,7 +1,7 @@
 export const Produtos = [
   {
     nome: 'Bicicleta',
-    preço: 10.99,
+    preço: 599.99,
     imagem: 'https://source.unsplash.com/800x800/?bicycle',
     id: 1,
     estoque: 20,
@@ -9,7 +9,7 @@ export const Produtos = [
   },
   {
     nome: 'Camiseta',
-    preço: 15.99,
+    preço: 55.99,
     imagem: 'https://source.unsplash.com/800x800/?tshirt',
     id: 2,
     estoque: 15,
@@ -17,7 +17,7 @@ export const Produtos = [
   },
   {
     nome: 'Tênis',
-    preço: 19.99,
+    preço: 199.99,
     imagem: 'https://source.unsplash.com/800x800/?shoes',
     id: 3,
     estoque: 10,
@@ -25,7 +25,7 @@ export const Produtos = [
   },
   {
     nome: 'Bola de Futebol',
-    preço: 12.99,
+    preço: 99.99,
     imagem: 'https://source.unsplash.com/800x800/?soccerball',
     id: 4,
     estoque: 18,
@@ -33,7 +33,7 @@ export const Produtos = [
   },
   {
     nome: 'Raquete de Tênis',
-    preço: 17.99,
+    preço: 197.99,
     imagem: 'https://source.unsplash.com/800x800/?tennisracket',
     id: 5,
     estoque: 12,
@@ -41,7 +41,7 @@ export const Produtos = [
   },
   {
     nome: 'Prancha de Surfe',
-    preço: 8.99,
+    preço: 88.99,
     imagem: 'https://source.unsplash.com/800x800/?surfboard',
     id: 6,
     estoque: 5,
@@ -49,7 +49,7 @@ export const Produtos = [
   },
   {
     nome: 'Óculos de Natação',
-    preço: 9.99,
+    preço: 99.99,
     imagem: 'https://source.unsplash.com/800x800/?swimgoggles',
     id: 7,
     estoque: 8,
@@ -57,7 +57,7 @@ export const Produtos = [
   },
   {
     nome: 'Shorts de Corrida',
-    preço: 14.99,
+    preço: 55.99,
     imagem: 'https://source.unsplash.com/800x800/?runningshorts',
     id: 8,
     estoque: 10,
@@ -65,7 +65,7 @@ export const Produtos = [
   },
   {
     nome: 'Bola de Vôlei',
-    preço: 11.99,
+    preço: 99.99,
     imagem: 'https://source.unsplash.com/800x800/?volleyball',
     id: 9,
     estoque: 14,
@@ -73,7 +73,7 @@ export const Produtos = [
   },
   {
     nome: 'Taco de Golfe',
-    preço: 16.99,
+    preço: 99.99,
     imagem: 'https://source.unsplash.com/800x800/?golfclub',
     id: 10,
     estoque: 9,
@@ -89,7 +89,7 @@ export const Produtos = [
   },
   {
     nome: 'Corda de Pular',
-    preço: 9.99,
+    preço: 29.99,
     imagem: 'https://source.unsplash.com/800x800/?jumpingrope',
     id: 12,
     estoque: 0,
@@ -98,7 +98,7 @@ export const Produtos = [
   // Produtos adicionais para um total de 20
   {
     nome: 'Capacete de Ciclismo',
-    preço: 24.99,
+    preço: 149.99,
     imagem: 'https://source.unsplash.com/800x800/?cyclinghelmet',
     id: 13,
     estoque: 15,
@@ -106,7 +106,7 @@ export const Produtos = [
   },
   {
     nome: 'Bermuda de Natação',
-    preço: 18.99,
+    preço: 79.99,
     imagem: 'https://source.unsplash.com/800x800/?swimshorts',
     id: 14,
     estoque: 12,
@@ -114,14 +114,14 @@ export const Produtos = [
   },
   {
     nome: 'Chuteira',
-    preço: 22.99,
+    preço: 149.99,
     imagem: 'https://source.unsplash.com/800x800/?soccerboots',
     id: 15,
     estoque: 9,
     vendidos: 2
   },
   {
-    nome: 'Raquete de Badminton',
+    nome: 'Raquete',
     preço: 20.99,
     imagem: 'https://source.unsplash.com/800x800/?badmintonracket',
     id: 16,
@@ -130,7 +130,7 @@ export const Produtos = [
   },
   {
     nome: 'Bola de Basquete',
-    preço: 14.99,
+    preço: 89.99,
     imagem: 'https://source.unsplash.com/800x800/?basketball',
     id: 17,
     estoque: 16,
@@ -138,7 +138,7 @@ export const Produtos = [
   },
   {
     nome: 'Chapéu de Praia',
-    preço: 8.99,
+    preço: 89.99,
     imagem: 'https://source.unsplash.com/800x800/?beachhat',
     id: 18,
     estoque: 20,
@@ -146,7 +146,7 @@ export const Produtos = [
   },
   {
     nome: 'Saco de Boxe',
-    preço: 27.99,
+    preço: 279.99,
     imagem: 'https://source.unsplash.com/800x800/?punchingbag',
     id: 19,
     estoque: 6,
@@ -154,7 +154,7 @@ export const Produtos = [
   },
   {
     nome: 'Luvas de Goleiro',
-    preço: 19.99,
+    preço: 119.99,
     imagem: 'https://source.unsplash.com/800x800/?goalkeepergloves',
     id: 20,
     estoque: 8,
