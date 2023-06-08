@@ -1,8 +1,10 @@
 'use client'
 // Components
 import CartComponent from '../cart/Cart-component'
-// Utilities
+import MenuMobile from './Mobile'
+// Icons
 import { ShoppingBagIcon } from '@heroicons/react/24/outline'
+// Utilities
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
@@ -12,7 +14,7 @@ export default function HeaderComponent() {
   return (
     <>
       <header className="fixed top-0 z-10 flex h-20 w-full items-center justify-center bg-primary text-slate-100">
-        <nav className="flex w-[90vw] items-center justify-between sm:w-[80vw]">
+        <nav className="hidden w-[90vw] items-center justify-between sm:flex sm:w-[80vw] sm:bg-red-700 md:flex">
           <Link
             href="/"
             className="relative flex h-[50px] cursor-pointer flex-col justify-between">
@@ -28,6 +30,7 @@ export default function HeaderComponent() {
             </div>
             <p className="text-gray-400">Sports</p>
           </Link>
+          {/*  */}
           <ul className="my-list flex items-center gap-4 text-gray-300">
             <Link href="/sign">Criar conta </Link>
             <Link href="/login" className="">
@@ -48,6 +51,7 @@ export default function HeaderComponent() {
             </li>
           </ul>
         </nav>
+        <MenuMobile />
       </header>
       <div className="h-[56px]"></div>
       {cartActive ? <CartComponent /> : null}

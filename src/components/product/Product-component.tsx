@@ -27,9 +27,11 @@ const ProductComponent: FunctionComponent<Product> = (
         <div className="text-lg font-semibold ">R$ {price}</div>
       </div>
       <div className="product-inative absolute top-0 flex h-full   w-[155px] items-center justify-center rounded-md bg-[rgb(0,0,0,.3)]">
-        <ButtonComponent icon={<CartIcon width={20} />}>
-          <Link href={`/produto/${id}`}>Adicionar</Link>
-        </ButtonComponent>
+        <Link href={`/produto/${id}`}>
+          <ButtonComponent icon={<CartIcon width={20} />}>
+            Comprar
+          </ButtonComponent>
+        </Link>
       </div>
     </div>
   )
