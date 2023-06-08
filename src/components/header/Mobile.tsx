@@ -12,7 +12,7 @@ const MenuMobile = () => {
   return (
     <>
       <div
-        className={`fixed left-0 top-0  block h-full ${
+        className={`fixed left-0 top-0 z-50 block h-full ${
           isOpen && 'bg-white'
         }  sm:hidden md:hidden`}>
         <div className="flex cursor-pointer justify-end p-4">
@@ -26,7 +26,7 @@ const MenuMobile = () => {
             <Bars
               width={30}
               onClick={() => setIsOpen((prev) => !prev)}
-              className="fixed left-[10px]"
+              className="fixed left-[20px] top-[20px] bg-red-500"
             />
           )}
         </div>
@@ -58,7 +58,7 @@ const MenuMobile = () => {
       </div>
       {isOpen ? (
         <div
-          className="fixed right-0 top-0 h-full w-[45.4vw] bg-[rgb(0,0,0,.7)] "
+          className="fixed right-0 top-0 h-full w-[100%] bg-[rgb(0,0,0,.7)] "
           onClick={() => setIsOpen((prev) => !prev)}
         />
       ) : null}
