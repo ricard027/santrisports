@@ -14,10 +14,10 @@ export default function HeaderComponent() {
   return (
     <>
       <header className="fixed top-0 z-10 flex h-20 w-full items-center justify-center bg-primary text-slate-100">
-        <nav className="hidden w-[90vw] items-center justify-between sm:flex sm:w-[80vw]  md:flex">
+        <nav className="flex w-[90vw] items-center justify-end  sm:flex sm:w-[80vw]  md:flex">
           <Link
             href="/"
-            className="relative flex h-[50px] cursor-pointer flex-col justify-between">
+            className="relative mr-44 flex h-[50px] cursor-pointer flex-col justify-between">
             <Image
               src="/assets/logo.svg"
               alt="imagem da logo"
@@ -32,15 +32,17 @@ export default function HeaderComponent() {
           </Link>
           {/*  */}
           <ul className="my-list flex items-center gap-4 text-gray-300">
-            <Link href="/sign">Criar conta </Link>
-            <Link href="/login" className="">
+            <Link href="/sign" className="hidden sm:block">
+              Criar conta{' '}
+            </Link>
+            <Link href="/login" className="hidden sm:block">
               Entrar
             </Link>
-            <Link href="/products" className="">
+            <Link href="/products" className="hidden sm:block">
               Produtos
             </Link>
             <li
-              className="  relative flex cursor-pointer items-center"
+              className="  relative flex cursor-pointer items-center "
               onClick={() => setCartActive((prevstate: boolean) => !prevstate)}>
               <ShoppingBagIcon
                 className="
@@ -51,10 +53,11 @@ export default function HeaderComponent() {
             </li>
           </ul>
         </nav>
+        <div></div>
         <MenuMobile />
       </header>
       <div className="h-[56px]"></div>
-      {cartActive ? <CartComponent /> : null}
+      {cartActive ? <CartComponent setCartactive={setCartActive} /> : null}
     </>
   )
 }

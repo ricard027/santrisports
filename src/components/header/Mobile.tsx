@@ -26,7 +26,7 @@ const MenuMobile = () => {
             <Bars
               width={30}
               onClick={() => setIsOpen((prev) => !prev)}
-              className="fixed left-[20px] top-[20px] bg-red-500"
+              className="fixed left-[20px] top-[25px]"
             />
           )}
         </div>
