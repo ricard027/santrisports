@@ -14,10 +14,10 @@ export default function HeaderComponent() {
   return (
     <>
       <header className="fixed top-0 z-10 flex h-20 w-full items-center justify-center bg-primary text-slate-100">
-        <nav className="flex w-[90vw] items-center justify-end  sm:flex sm:w-[80vw]  md:flex">
+        <nav className="flex w-[90vw] items-center justify-end  sm:flex  sm:w-[80vw] sm:justify-between  md:flex">
           <Link
             href="/"
-            className="relative mr-44 flex h-[50px] cursor-pointer flex-col justify-between">
+            className="relative mr-[38%] flex h-[50px] cursor-pointer flex-col justify-between">
             <Image
               src="/assets/logo.svg"
               alt="imagem da logo"

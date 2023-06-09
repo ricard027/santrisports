@@ -17,7 +17,11 @@ import { EyeIcon } from '@heroicons/react/24/outline'
 // Utilities
 import { Produtos } from '../../../../script/Products'
 import { useState } from 'react'
-export default function ProductDetails({ params }: any) {
+
+interface Iproducts {
+  params: { id: Number }
+}
+export default function ProductDetails({ params }: Iproducts) {
   const idParams = params.id
 
   const [activeIcon, setActiveIcon] = useState<Boolean>(false)
