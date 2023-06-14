@@ -23,7 +23,6 @@ interface IcarouselProps {
 
 const CarouselComponent: FunctionComponent<IcarouselProps> = ({
   children,
-  qtdSlides,
   iwantNavigateorNot,
   iWantPaginationorNot,
   autoplayornot,
@@ -55,7 +54,7 @@ const CarouselComponent: FunctionComponent<IcarouselProps> = ({
         375: {
           slidesPerGroup: sm,
           slidesPerView: sm,
-          spaceBetween: 100
+          spaceBetween: 150
         }
       }}
       className="my-6">
