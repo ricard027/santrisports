@@ -47,7 +47,7 @@ li {
 }
 .icon-active {
   display: none;
-  left: 40%;
+  left: 35%;
   color: white;
 }
 .active-icon:hover > .icon-active {
