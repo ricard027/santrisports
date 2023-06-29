@@ -1,14 +1,14 @@
-# Santri Sports
+# Santri Store
 
-Este é o repositório do projeto Santri Sports, um e-commerce de produtos esportivos. Foi desenvolvido utilizando Next.js com Tailwind CSS.
+Este é o repositório do projeto Santri Sports, um e-commerce de produtos. Foi desenvolvido utilizando Next.js com Tailwind CSS.
 
 ## Visão Geral
 
-O objetivo do Santri Sports é fornecer aos usuários uma plataforma para compra de produtos esportivos de alta qualidade. O projeto inclui recursos como catálogo de produtos, carrinho de compras, autenticação de usuários, processamento de pagamentos e muito mais.
+O objetivo do Santri Store é fornecer aos usuários uma plataforma para compra de produtos  de alta qualidade. O projeto inclui recursos como catálogo de produtos, carrinho de compras, autenticação de usuários, processamento de pagamentos e muito mais.
 
 ## Demo
 
-Confira a versão demo do projeto [aqui](https://santrisports-git-main-ricard027.vercel.app/).
+Confira a versão demo do projeto [aqui](https://santristore-git-main-ricard027.vercel.app/).
 
 ## Protótipo
 
